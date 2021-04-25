@@ -11,7 +11,8 @@
  
 /* Article Header Padding */
 .article-header {
-    padding: 15px 0 6vmin;
+    padding: 0 0 6vmin;
+    padding-top: 15px;
 }
 
 /* Dark Mode */    
