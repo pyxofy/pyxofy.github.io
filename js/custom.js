@@ -2,4 +2,7 @@
 document.getElementsByTagName("body")[0].setAttribute("class", "post-template");
 
 /* Replace text */
-String.replace(/Powered by Ghost/gi, '');
+let textToReplace = document.querySelector("a");
+let classess = textToReplace = a.classList;
+let result = classess.replace = ("Powered by Ghost", "");
+console.log(result);
