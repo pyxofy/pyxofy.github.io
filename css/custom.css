@@ -8,7 +8,12 @@
     z-index: 1000;
     margin-bottom: 25px;
 }     
-    
+ 
+/* Article Header Padding */
+.article-header {
+    padding: 10px 0 6vmin;
+}
+
 /* Dark Mode */    
 @media (prefers-color-scheme: dark) {
     body {
