@@ -5,8 +5,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
-    margin-bottom: 25px;
+    z-index: 1000;    
 }     
  
 /* Article Header Padding */
