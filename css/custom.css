@@ -1,3 +1,8 @@
+/* Article Font Family */
+:root {
+    --font-sans-serif: Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia,sans-serif;
+}
+
 /* Sticky Nav */
 #gh-head {
 	transition: all .4s ease-out;
@@ -8,11 +13,6 @@
     z-index: 1000;    
 }     
  
-/* Article Font Family */
-:root {
-    --font-sans-serif: Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia,sans-serif;
-}
-
 /* Article Header Padding */
 .article-header {
     padding: 0 0 6vmin;
@@ -63,7 +63,7 @@
         color: rgba(255, 255, 255, 0.9);
     }
     
-  .article-excerpt {
+    .article-excerpt {
         color: color-mod(var(--color-midgrey) l(+10%));
     }
     
