@@ -1,6 +1,6 @@
 /* Article Font Family */
 :root {
-    --font-serif: Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia;
+    --font-serif: "Meiryo","メイリオ","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Georgia, Times, Helvetica,"Roboto","Oxygen","Ubuntu","Cantarell","Open Sans","Helvetica Neue", serif;
 }
 
 /* Sticky Nav */
