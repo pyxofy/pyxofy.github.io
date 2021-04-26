@@ -11,6 +11,16 @@ function deleteText1() {
 	}
 }
 
+/* Delete Text 2 */
+function deleteText2() {
+	let str = document.getElementsByClassName("post-template")[0];
+	let x = str.getElementsByTagName("span");
+	for (let i = 0; i < x.length; i++) {
+		let res = x[i].innerHTML.replace(/Publish with Ghost/gi, "");
+		x[i].innerHTML = res;
+	}
+}
+
 /* Replace Text */
 function replaceText() {
 	let str = document.getElementsByClassName("post-template")[0];
@@ -23,3 +33,4 @@ function replaceText() {
 
 window.addEventListener("load", deleteText1);
 window.addEventListener("load", replaceText);
+window.addEventListener("load", deleteText2);
