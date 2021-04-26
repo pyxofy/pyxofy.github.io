@@ -21,5 +21,5 @@ function replaceText() {
 	}
 }
 
-window.addEventListener("load", deleteText1);
-window.addEventListener("load", replaceText);
+window.addEventListener("load", deleteText1, replaceText);
+// window.addEventListener("load", replaceText);
