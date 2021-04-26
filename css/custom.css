@@ -8,15 +8,15 @@
     z-index: 1000;    
 }     
  
+/* Viewport Class Font Family */
+.viewport {
+    font-family:Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia,sans-serif;
+}
+
 /* Article Header Padding */
 .article-header {
     padding: 0 0 6vmin;
     padding-top: 20px;
-}
-
-/* Font Family */
-body {
-    font-family:メイリオ,Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,Georgia,sans-serif;
 }
 
 /* Dark Mode */    
