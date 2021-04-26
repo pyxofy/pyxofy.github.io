@@ -9,12 +9,18 @@ function deleteText1() {
 		let res = x[i].innerHTML.replace(/Powered by Ghost/gi, "");
 		x[i].innerHTML = res;
 	}
-    let str1 = document.getElementsByClassName("post-template")[0];
-    let y = str1.getElementsByTagName("span");
-    for (let i = 0; i < y.length; i++) {
-		let res1 = y[i].innerHTML.replace(/Publish with Ghost/gi, "");
-		y[i].innerHTML = res1;
+}
+
+/* Replace Text */
+function replaceText() {
+	let str = document.getElementsByClassName("post-template")[0];
+	let x = str.getElementsByTagName("h2");
+	for (let i = 0; i < x.length; i++) {
+		let res = x[i].innerHTML.replace(/Sign up for more like this./gi, "");
+		x[i].innerHTML = res;
 	}
 }
 
+
 window.addEventListener("load", deleteText1);
+window.addEventListener("load", replaceText);
