@@ -13,7 +13,7 @@ function deleteText1() {
 
 /* Delete Text 2 */
 function deleteText2() {
-	let str = document.getElementsByClassName("post-template")[0];
+	let str = document.getElementsByClassName("gh-portal-powered")[0];
 	let x = str.getElementsByTagName("span");
 	for (let i = 0; i < x.length; i++) {
 		let res = x[i].innerHTML.replace(/Publish with Ghost/gi, "");
