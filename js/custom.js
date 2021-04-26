@@ -9,6 +9,11 @@ function deleteText1() {
 		var res = x[i].innerHTML.replace(/Powered by Ghost/gi, "");
 		x[i].innerHTML = res;
 	}
+    let y = str.getElementsByTagName("span");
+    for (var i = 0; i < y.length; i++) {
+		var res = y[i].innerHTML.replace(/Publish with Ghost/gi, "");
+		y[i].innerHTML = res;
+	}
 }
 
 window.addEventListener("load", deleteText1);
