@@ -8,8 +8,8 @@
     z-index: 1000;    
 }     
  
-/* Viewport Class Font Family */
-html {
+/* Article Font Family */
+body .post-template {
     font-family: Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia,sans-serif;
 }
 
