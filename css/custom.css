@@ -9,7 +9,7 @@
 }     
  
 /* Viewport Class Font Family */
-body main {
+article {
     font-family:Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia,sans-serif;
 }
 
