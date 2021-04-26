@@ -10,7 +10,7 @@ function deleteText1() {
 		x[i].innerHTML = res;
 	}
     let str1 = document.getElementsByClassName("post-template")[0];
-    let y = str1.getElementsByTagName("a");
+    let y = str1.getElementsByTagName("span");
     for (var i = 0; i < y.length; i++) {
 		var res1 = y[i].innerHTML.replace(/Publish with Ghost/gi, "");
 		y[i].innerHTML = res1;
