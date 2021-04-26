@@ -9,8 +9,8 @@
 }     
  
 /* Article Font Family */
-body .post-template {
-    font-family: Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia,sans-serif;
+:root {
+    --font-sans-serif: Meiryo,メイリオ,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",Georgia,sans-serif;
 }
 
 /* Article Header Padding */
