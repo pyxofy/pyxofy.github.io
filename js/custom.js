@@ -9,7 +9,8 @@ function deleteText1() {
 		var res = x[i].innerHTML.replace(/Powered by Ghost/gi, "");
 		x[i].innerHTML = res;
 	}
-    let y = str.getElementsByTagName("a");
+    let str1 = document.getElementsByClassName("post-template")[0];
+    let y = str1.getElementsByTagName("a");
     for (var i = 0; i < y.length; i++) {
 		var res1 = y[i].innerHTML.replace(/Publish with Ghost/gi, "");
 		y[i].innerHTML = res1;
