@@ -16,7 +16,7 @@ function replaceText() {
 	let str = document.getElementsByClassName("post-template")[0];
 	let x = str.getElementsByTagName("h2");
 	for (let i = 0; i < x.length; i++) {
-		let res = x[i].innerHTML.replace(/Sign up for more like this./gi, "");
+		let res = x[i].innerHTML.replace(/Sign up for more like this./gi, "最新記事をいち早くニュースレターでお届けします。");
 		x[i].innerHTML = res;
 	}
 }
