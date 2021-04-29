@@ -18,40 +18,12 @@ main {
     margin-top: 35px;
 }
 
-/* Article Header Padding 
-.article-header {
-    padding: 0 0 6vmin;
-    padding-top: 20px;
-}
-*/
-
-/* Author Page Outer Section Margin 
-.author-profile-content {
-    margin-top: 30px;
-}
-*/
-
-/* Tag Page Post Feed Margin 
-.post-feed {
-    margin-top: 30px;
-}
-
-@media (max-width: 700px) {
-    .post-feed {
-        grid-template-columns: 1fr;
-        grid-gap: 40px;
-        margin-top: 35px;
-    }
-}
-*/
-
 /* Site Footer */
 .site-footer {
     background: #085BB5;
 }  
 
 /* Headings */
-
 h1,
 h2,
 h3,
