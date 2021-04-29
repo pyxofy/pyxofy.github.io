@@ -21,9 +21,7 @@
 
 
 /* Author Page Outer Section Margin */
-outer {
-    position: relative;
-    padding: 0 4vmin;
+.author-profile-content {
     margin-top: 30px;
 }
 
