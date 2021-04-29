@@ -19,6 +19,12 @@
     padding-top: 20px;
 }
 
+/* Tag Page Post Card Margin */
+
+.post-card {
+    margin-top: 30px;
+}
+
 /* Site Footer */
 .site-footer {
     background: #085BB5;
