@@ -54,24 +54,24 @@ h6 {
 
 h1 {
     margin: 0 0 0.5em 0;
-    font-size: 4.8rem;
+    font-size: 4.725rem;
     font-weight: 700;
     letter-spacing: -0.015em;
 }
 @media (max-width: 600px) {
     h1 {
-        font-size: 2.8rem;
+        font-size: 3.825rem;
     }
 }
 
 h2 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 3rem;
+    font-size: 3.15rem;
     font-weight: 700;
 }
 @media (max-width: 600px) {
     h2 {
-        font-size: 2.6rem;
+        font-size: 2.65rem;
     }
 }
 
@@ -88,12 +88,12 @@ h3 {
 
 h4 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
 }
 
 h5 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 h6 {
