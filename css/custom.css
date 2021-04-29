@@ -14,19 +14,25 @@
     margin-bottom: 30px;    
 }     
  
-/* Article Header Padding */
+/* Main Container Top Margin */
+main {
+    margin-top: 30px;
+}
+
+/* Article Header Padding 
 .article-header {
     padding: 0 0 6vmin;
     padding-top: 20px;
 }
+*/
 
-
-/* Author Page Outer Section Margin */
+/* Author Page Outer Section Margin 
 .author-profile-content {
     margin-top: 30px;
 }
+*/
 
-/* Tag Page Post Feed Margin */
+/* Tag Page Post Feed Margin 
 .post-feed {
     margin-top: 30px;
 }
@@ -38,6 +44,7 @@
         margin-top: 35px;
     }
 }
+*/
 
 /* Site Footer */
 .site-footer {
