@@ -19,6 +19,11 @@
     padding-top: 20px;
 }
 
+/* Site Footer */
+.site-footer {
+    background: #085BB5;
+}  
+
 /* Dark Mode */    
 @media (prefers-color-scheme: dark) {
     body {
