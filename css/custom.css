@@ -19,6 +19,14 @@
     padding-top: 20px;
 }
 
+
+/* Author Page Outer Section Margin */
+outer {
+    position: relative;
+    padding: 0 4vmin;
+    margin-top: 30px;
+}
+
 /* Tag Page Post Feed Margin */
 .post-feed {
     margin-top: 30px;
