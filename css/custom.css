@@ -37,6 +37,11 @@
     background: #085BB5;
 }  
 
+/* Body Font Size */
+body {
+    font-size: 1rem;
+}
+
 /* Headings */
 
 h1,
