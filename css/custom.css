@@ -1,27 +1,29 @@
 /* Article Font Family */
 :root {
-    --font-serif: "Meiryo","メイリオ","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Georgia, Times, Helvetica,"Roboto","Oxygen","Ubuntu","Cantarell","Open Sans","Helvetica Neue",serif;
+  --font-serif: "Meiryo", "メイリオ", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", Georgia, Times, Helvetica, "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", serif;
 }
 
 /* Sticky Nav */
 #gh-head {
-	transition: all .4s ease-out;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;  
-}     
- 
+  transition: all 0.4s ease-out;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 /* Main Container Top Margin */
 main {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 /* Site Footer */
 .site-footer {
-    background: #085BB5;
-}  
+  background: #085bb5;
+}
 
 /* Headings */
 h1,
@@ -30,268 +32,289 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    line-height: 1.15;
-    font-weight: 600;
-    text-rendering: optimizeLegibility;
-    letter-spacing: -0.01em;
+  margin-top: 0;
+  line-height: 1.15;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.01em;
 }
 
 h1 {
-    margin: 0 0 0.5em 0;
-    font-size: 4.8rem;
-    font-weight: 700;
-    letter-spacing: -0.015em;
+  margin: 0 0 0.5em 0;
+  font-size: 4.8rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
 }
 @media (max-width: 600px) {
-    h1 {
-        font-size: 3.2rem;
-    }
+  h1 {
+    font-size: 3.2rem;
+  }
 }
 
 h2 {
-    margin: 1.5em 0 0.5em 0;
-    font-size: 3.15rem;
-    font-weight: 700;
+  margin: 1.5em 0 0.5em 0;
+  font-size: 3.15rem;
+  font-weight: 700;
 }
 @media (max-width: 600px) {
-    h2 {
-        font-size: 2.8rem;
-    }
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+
+/* Content not going below Stick Nav*/
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 60px;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 h3 {
-    margin: 1.5em 0 0.5em 0;
-    font-size: 2.6rem;
-    font-weight: 600;
+  margin: 1.5em 0 0.5em 0;
+  font-size: 2.6rem;
+  font-weight: 600;
 }
 @media (max-width: 600px) {
-    h3 {
-        font-size: 2.5rem;
-    }
+  h3 {
+    font-size: 2.5rem;
+  }
 }
 
 h4 {
-    margin: 1.5em 0 0.5em 0;
-    font-size: 2.2rem;
+  margin: 1.5em 0 0.5em 0;
+  font-size: 2.2rem;
 }
 
 h5 {
-    margin: 1.5em 0 0.5em 0;
-    font-size: 2rem;
+  margin: 1.5em 0 0.5em 0;
+  font-size: 2rem;
 }
 
 h6 {
-    margin: 1.5em 0 0.5em 0;
-    font-size: 1.8rem;
+  margin: 1.5em 0 0.5em 0;
+  font-size: 1.8rem;
 }
 
-/* Dark Mode */    
+/* Dark Mode */
 @media (prefers-color-scheme: dark) {
-    body {
-        color: rgba(255, 255, 255, 0.75);
-        background: var(--color-darkmode);
-    }
-    
-    img {
-        opacity: 0.9;
-    }
-    
-    .post-card,
-    .post-card:hover {
-        border-bottom-color: color-mod(var(--color-darkmode) l(+8%));
-    }
-    
-    .post-card-byline-content a {
-        color: rgba(255, 255, 255, 0.75);
-    }
-    
-    .post-card-byline-content a:hover {
-        color: #fff;
-    }
-    
-    .post-card-image {
-        background: var(--color-darkmode);
-    }
-    
-    .post-card-title {
-        color: rgba(255, 255, 255, 0.85);
-    }
-    
-    .post-card-excerpt {
-        color: color-mod(var(--color-midgrey) l(+10%));
-    }
-    
-    .post-full-content {
-        background: var(--color-darkmode);
-    }
-    
-    .article-title {
-        color: rgba(255, 255, 255, 0.9);
-    }
-    
-    .article-excerpt {
-        color: color-mod(var(--color-midgrey) l(+10%));
-    }
-    
-    .post-full-image {
-        background-color: color-mod(var(--color-darkmode) l(+8%));
-    }
-    
-    .article-byline {
-        border-top-color: color-mod(var(--color-darkmode) l(+15%));
-    }
-    
-    .article-byline-meta h4 a {
-        color: rgba(255, 255, 255, 0.75);
-    }
-    
-    .article-byline-meta h4 a:hover {
-        color: #fff;
-    }
-    
-    .no-image .author-social-link a {
-        color: rgba(255, 255, 255, 0.75);
-    }
-    
- 	.gh-content > [id] {
-        margin: 0;
-        color: rgba(255, 255, 255, 0.9);
-    } 
-    
-    p,
-    .gh-content h1,
-    .gh-content h2,
-    .gh-content h3,
-    .gh-content h4,
-    .gh-content h5,
-    .gh-content h6 {
-        color: rgba(255, 255, 255, 0.9);
-    }
-    
-    .gh-content pre {
-        background: color-mod(var(--color-darkgrey) l(-8%));
-    }
-    
-    .gh-content :not(pre) > code {
-        background: color-mod(var(--color-darkgrey) l(+6%));
-        border-color: color-mod(var(--color-darkmode) l(+8%));
-        color: var(--color-wash);
-    }
-    
-    .post-full-content a {
-        color: #fff;
-        box-shadow: inset 0 -1px 0 #fff;
-    }
-    
-    .post-full-content strong {
-        color: #fff;
-    }
-    
-    .post-full-content em {
-        color: #fff;
-    }
-    
-    .post-full-content code {
-        color: #fff;
-        background: #000;
-    }
-    
-    hr {
-        border-top-color: color-mod(var(--color-darkmode) l(+8%));
-    }
-    
-    .post-full-content hr:after {
-        background: color-mod(var(--color-darkmode) l(+8%));
-        box-shadow: var(--color-darkmode) 0 0 0 5px;
-    }
-    
-    .gh-content figcaption {
-        color: rgba(255, 255, 255, 0.6);
-    }
-    
-    .post-full-content table td:first-child {
-        background-image: linear-gradient(to right, var(--color-darkmode) 50%, color-mod(var(--color-darkmode) a(0%)) 100%);
-    }
-    
-    .post-full-content table td:last-child {
-        background-image: linear-gradient(to left, var(--color-darkmode) 50%, color-mod(var(--color-darkmode) a(0%)) 100%);
-    }
-    
-    .post-full-content table th {
-        color: rgba(255, 255, 255, 0.85);
-        background-color: color-mod(var(--color-darkmode) l(+8%));
-    }
-    
-    .post-full-content table th,
-    .post-full-content table td {
-        border: color-mod(var(--color-darkmode) l(+8%)) 1px solid;
-    }
-    
-    .post-full-content .kg-bookmark-container,
-    .post-full-content .kg-bookmark-container:hover {
-        color: rgba(255, 255, 255, 0.75);
-        box-shadow: 0 0 1px rgba(255,255,255,0.9);
-    }
-    
-    .post-full-content input {
-        color: color-mod(var(--color-midgrey) l(-30%));
-    }
-    
-    .kg-bookmark-title {
-        color: #fff;
-    }
-    
-    .kg-bookmark-description {
-        color: rgba(255, 255, 255, 0.75);
-    }
-    
-    .kg-bookmark-metadata {
-        color: rgba(255, 255, 255, 0.75);
-    }
-    
-    .site-archive-header .no-image {
-        color: rgba(255, 255, 255, 0.9);
-        background: var(--color-darkmode);
-    }
-    
-    .subscribe-form {
-        border: none;
-        background: linear-gradient(color-mod(var(--color-darkmode) l(-6%)), color-mod(var(--color-darkmode) l(-3%)));
-    }
-    
-    .subscribe-form-title {
-        color: rgba(255, 255, 255, 0.9);
-    }
-    
-    .subscribe-form p {
-        color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .subscribe-email {
-        border-color: color-mod(var(--color-darkmode) l(+6%));
-        color: rgba(255, 255, 255, 0.9);
-        background: color-mod(var(--color-darkmode) l(+3%));
-    }
-    
-    .subscribe-email:focus {
-        border-color: color-mod(var(--color-darkmode) l(+25%));
-    }
-    
-    .subscribe-form button {
-        opacity: 0.9;
-    }
-    
-    .subscribe-form .invalid .message-error,
-    .subscribe-form .error .message-error {
-        color: color-mod(var(--color-red) l(+5%) s(-5%));
-    }
-    
-    .subscribe-form .success .message-success {
-        color: color-mod(var(--color-green) l(+5%) s(-5%));
-    }
-    
-    .site-footer {
-        background: #085BB5;
-    }    
+  body {
+    color: rgba(255, 255, 255, 0.75);
+    background: var(--color-darkmode);
+  }
+
+  img {
+    opacity: 0.9;
+  }
+
+  .post-card,
+  .post-card:hover {
+    border-bottom-color: color-mod(var(--color-darkmode) l(+8%));
+  }
+
+  .post-card-byline-content a {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .post-card-byline-content a:hover {
+    color: #fff;
+  }
+
+  .post-card-image {
+    background: var(--color-darkmode);
+  }
+
+  .post-card-title {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .post-card-excerpt {
+    color: color-mod(var(--color-midgrey) l(+10%));
+  }
+
+  .post-full-content {
+    background: var(--color-darkmode);
+  }
+
+  .article-title {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .article-excerpt {
+    color: color-mod(var(--color-midgrey) l(+10%));
+  }
+
+  .post-full-image {
+    background-color: color-mod(var(--color-darkmode) l(+8%));
+  }
+
+  .article-byline {
+    border-top-color: color-mod(var(--color-darkmode) l(+15%));
+  }
+
+  .article-byline-meta h4 a {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .article-byline-meta h4 a:hover {
+    color: #fff;
+  }
+
+  .no-image .author-social-link a {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .gh-content > [id] {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  p,
+  .gh-content h1,
+  .gh-content h2,
+  .gh-content h3,
+  .gh-content h4,
+  .gh-content h5,
+  .gh-content h6 {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .gh-content pre {
+    background: color-mod(var(--color-darkgrey) l(-8%));
+  }
+
+  .gh-content :not(pre) > code {
+    background: color-mod(var(--color-darkgrey) l(+6%));
+    border-color: color-mod(var(--color-darkmode) l(+8%));
+    color: var(--color-wash);
+  }
+
+  .post-full-content a {
+    color: #fff;
+    box-shadow: inset 0 -1px 0 #fff;
+  }
+
+  .post-full-content strong {
+    color: #fff;
+  }
+
+  .post-full-content em {
+    color: #fff;
+  }
+
+  .post-full-content code {
+    color: #fff;
+    background: #000;
+  }
+
+  hr {
+    border-top-color: color-mod(var(--color-darkmode) l(+8%));
+  }
+
+  .post-full-content hr:after {
+    background: color-mod(var(--color-darkmode) l(+8%));
+    box-shadow: var(--color-darkmode) 0 0 0 5px;
+  }
+
+  .gh-content figcaption {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .post-full-content table td:first-child {
+    background-image: linear-gradient(
+      to right,
+      var(--color-darkmode) 50%,
+      color-mod(var(--color-darkmode) a(0%)) 100%
+    );
+  }
+
+  .post-full-content table td:last-child {
+    background-image: linear-gradient(
+      to left,
+      var(--color-darkmode) 50%,
+      color-mod(var(--color-darkmode) a(0%)) 100%
+    );
+  }
+
+  .post-full-content table th {
+    color: rgba(255, 255, 255, 0.85);
+    background-color: color-mod(var(--color-darkmode) l(+8%));
+  }
+
+  .post-full-content table th,
+  .post-full-content table td {
+    border: color-mod(var(--color-darkmode) l(+8%)) 1px solid;
+  }
+
+  .post-full-content .kg-bookmark-container,
+  .post-full-content .kg-bookmark-container:hover {
+    color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+  }
+
+  .post-full-content input {
+    color: color-mod(var(--color-midgrey) l(-30%));
+  }
+
+  .kg-bookmark-title {
+    color: #fff;
+  }
+
+  .kg-bookmark-description {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .kg-bookmark-metadata {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .site-archive-header .no-image {
+    color: rgba(255, 255, 255, 0.9);
+    background: var(--color-darkmode);
+  }
+
+  .subscribe-form {
+    border: none;
+    background: linear-gradient(
+      color-mod(var(--color-darkmode) l(-6%)),
+      color-mod(var(--color-darkmode) l(-3%))
+    );
+  }
+
+  .subscribe-form-title {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .subscribe-form p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .subscribe-email {
+    border-color: color-mod(var(--color-darkmode) l(+6%));
+    color: rgba(255, 255, 255, 0.9);
+    background: color-mod(var(--color-darkmode) l(+3%));
+  }
+
+  .subscribe-email:focus {
+    border-color: color-mod(var(--color-darkmode) l(+25%));
+  }
+
+  .subscribe-form button {
+    opacity: 0.9;
+  }
+
+  .subscribe-form .invalid .message-error,
+  .subscribe-form .error .message-error {
+    color: color-mod(var(--color-red) l(+5%) s(-5%));
+  }
+
+  .subscribe-form .success .message-success {
+    color: color-mod(var(--color-green) l(+5%) s(-5%));
+  }
+
+  .site-footer {
+    background: #085bb5;
+  }
 }
