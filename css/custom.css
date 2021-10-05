@@ -62,11 +62,9 @@ h2 {
   }
 }
 
-/* H2 not going below Stick Nav */
-.appeal {
-  display: inline-block;
-  margin-top: -60px;
-  padding-top: calc(60px + 1em);
+/* Hash tag link not going below Stick Nav */
+.hashtag-link {
+  padding-top: 60px;
 }
 
 h3 {
