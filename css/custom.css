@@ -62,14 +62,11 @@ h2 {
   }
 }
 
-/* Content not going below Stick Nav*/
-h2::before {
-  display: block;
-  content: " ";
+/* H2 not going below Stick Nav */
+.appeal {
+  display: inline-block;
   margin-top: -60px;
-  height: 60px;
-  visibility: hidden;
-  pointer-events: none;
+  padding-top: calc(60px + 1em);
 }
 
 h3 {
