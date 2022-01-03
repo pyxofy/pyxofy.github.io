@@ -99,11 +99,6 @@ h6 {
   scroll-margin-top: 84px;
 }
 
-/* Adjust content wrapper */
-.gh-content {
-  display: block;
-}
-
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
   body {
