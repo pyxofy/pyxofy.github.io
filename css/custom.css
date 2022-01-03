@@ -5,6 +5,11 @@
     "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", serif;
 }
 
+/* Safari scroll overflow work around */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
 /* Sticky Nav */
 #gh-head {
   transition: all 0.4s ease-out;
