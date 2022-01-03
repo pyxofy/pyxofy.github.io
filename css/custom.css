@@ -93,6 +93,12 @@ h6 {
   font-size: 1.8rem;
 }
 
+/* Offset Table of Content (TOC) headings from fixed header */
+.gh-content h2,
+.gh-content h3 {
+  scroll-margin-top: 84px;
+}
+
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
   body {
