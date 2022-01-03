@@ -67,11 +67,6 @@ h2 {
   }
 }
 
-/* Hash tag link not going below Stick Nav */
-.hashtag-link {
-  padding-top: 60px;
-}
-
 h3 {
   margin: 1.5em 0 0.5em 0;
   font-size: 2.6rem;
@@ -102,6 +97,11 @@ h6 {
 .gh-content h2,
 .gh-content h3 {
   scroll-margin-top: 84px;
+}
+
+/* Hash tag link not going below Stick Nav */
+.hashtag-link {
+  padding-top: 60px;
 }
 
 /* Dark Mode */
