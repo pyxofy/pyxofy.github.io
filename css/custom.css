@@ -20,14 +20,29 @@ body {
   z-index: 1000;
 }
 
+/* Sticky Nav 
+#gh-head {
+  transition: all 0.4s ease-out;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}　*/
+
 /* Main Container Top Margin */
 main {
   margin-top: 40px;
 }
 
+/* Header Branding */
+#gh-head {
+  background: var(--ghost-accent-color);
+}
+
 /* Site Footer */
 .site-footer {
-  background: #085bb5;
+  background: var(--ghost-accent-color);
 }
 
 /* Headings */
