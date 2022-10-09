@@ -38,6 +38,11 @@ main {
   padding-top: 11.4vmin;
 }
 
+/* Site Content Padding Top */
+.site-content {
+  padding-top: 60px;
+}
+
 /* Site Footer */
 .site-footer {
   background: var(--ghost-accent-color);
