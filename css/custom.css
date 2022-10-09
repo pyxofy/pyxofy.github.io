@@ -30,9 +30,9 @@ main {
   background: var(--ghost-accent-color);
 }
 
-/* Site Header Content Branding */
+/* Site Header Content Padding Top */
 .site-header-content {
-  color: var(--ghost-accent-color);
+  padding-top: 11.4vmin;
 }
 
 /* Site Footer */
@@ -329,9 +329,3 @@ h6 {
   .subscribe-form .success .message-success {
     color: color-mod(var(--color-green) l(+5%) s(-5%));
   }
-/*
-  .site-footer {
-    background: #085bb5;
-  }
-}
-*/
