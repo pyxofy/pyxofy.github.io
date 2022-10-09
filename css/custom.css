@@ -29,6 +29,7 @@ main {
 /* Header Branding */
 #gh-head {
   background: var(--ghost-accent-color);
+  color: #fff;
 }
 
 /* Site Header Content Padding Top */
