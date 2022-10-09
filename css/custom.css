@@ -20,11 +20,10 @@ body {
   z-index: 1000;
 }
 
-/* Main Container Top Margin 
+/* Main Container Top Margin */
 main {
   margin-top: 40px;
 }
-*/
 
 /* Header Branding */
 #gh-head {
