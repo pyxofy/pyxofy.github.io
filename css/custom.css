@@ -33,6 +33,8 @@ main {
 
 /* Site Header Content Padding Top */
 .site-header-content {
+  color: #fff;
+  background: var(--ghost-accent-color);
   padding-top: 11.4vmin;
 }
 
