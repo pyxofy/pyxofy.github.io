@@ -35,7 +35,8 @@ main {
 .site-header-content {
   color: #fff;
   background: var(--ghost-accent-color);
-  padding-top: 12.4vmin;
+  padding-top: 12vmin;
+  /* padding-top: 12.4vmin; */
 }
 
 /* Site Content Padding Top */
