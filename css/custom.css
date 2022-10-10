@@ -36,12 +36,11 @@ main {
   color: #fff;
   background: var(--ghost-accent-color);
   padding-top: 12vmin;
-  /* padding-top: 12.4vmin; */
 }
 
 /* Site Content Padding Top */
 .site-content {
-  padding-top: 60px;
+  padding-top: 55px;
 }
 
 /* Site Footer */
