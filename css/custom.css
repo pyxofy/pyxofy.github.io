@@ -287,6 +287,10 @@ h6 {
     color: color-mod(var(--color-midgrey) l(-30%));
   }
 
+   .kg-bookmark-content {
+    background: #777777;
+  }
+  
   .kg-bookmark-title {
     color: #fff;
   }
