@@ -303,6 +303,10 @@ h6 {
     color: rgba(255, 255, 255, 0.75);
   }
 
+  .kg-product-card-container {
+    background: #121212;
+  }
+
   .site-archive-header .no-image {
     color: rgba(255, 255, 255, 0.9);
     background: var(--color-darkmode);
