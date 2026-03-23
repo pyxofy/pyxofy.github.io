@@ -170,7 +170,7 @@ h6 {
     color: rgba(255, 255, 255, 0.85);
   }
 
-  .post-card-tags .post-card-primary-tag {
+  .post-card-primary-tag a {
     color: rgba(255, 255, 255, 0.85);
   }
 
@@ -202,7 +202,15 @@ h6 {
     color: #fff;
   }
 
-  .byline-meta-content {
+  .byline-meta-content .byline-meta-date {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .byline-meta-content .byline-reading-time {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .byline-reading-time .bull {
     color: rgba(255, 255, 255, 0.75);
   }
 
