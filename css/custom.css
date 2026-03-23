@@ -137,7 +137,7 @@ h6 {
     background: var(--color-darkmode);
   }
 
-  .article-tag a {
+  .article-tag .post-card-tags a {
     color: var(--color-secondary-text);
   }
 
