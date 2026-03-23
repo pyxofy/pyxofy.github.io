@@ -174,7 +174,13 @@ h6 {
     color: rgba(255, 255, 255, 0.85);
   }
 
+  /* Home Page Tag Color - White */
   .post-card-primary-tag {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  /* Article Page Tag Color - White */
+  .post-card-primary-tag a {
     color: rgba(255, 255, 255, 0.85);
   }
 
