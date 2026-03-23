@@ -166,6 +166,10 @@ h6 {
     color: color-mod(var(--color-midgrey) l(+10%));
   }
 
+  .post-card-meta {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
   .post-card-primary-tag {
     color: rgba(255, 255, 255, 0.85);
   }
@@ -198,7 +202,7 @@ h6 {
     color: #fff;
   }
 
-  .article-byline-meta-content {
+  .byline-meta-content {
     color: rgba(255, 255, 255, 0.75);
   }
 
