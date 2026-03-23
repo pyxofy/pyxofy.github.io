@@ -137,7 +137,9 @@ h6 {
     background: var(--color-darkmode);
   }
 
-  html.auto-color .article-tag .post-card-tags a {
+  /* This selector has a higher specificity weight than the screen.css rule */
+  html.auto-color .post-card-tags .post-card-primary-tag,
+  html.auto-color .post-card-tags .post-card-primary-tag a {
     color: var(--color-secondary-text);
   }
 
