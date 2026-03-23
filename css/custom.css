@@ -137,6 +137,10 @@ h6 {
     background: var(--color-darkmode);
   }
 
+  .article-tag a {
+    color: var(--color-secondary-text);
+  }
+
   img {
     opacity: 0.9;
   }
@@ -176,11 +180,6 @@ h6 {
 
   /* Home Page Tag Color - White */
   .post-card-primary-tag {
-    color: rgba(255, 255, 255, 0.85);
-  }
-
-  /* Article Page Tag Color - White */
-  .post-card-primary-tag a {
     color: rgba(255, 255, 255, 0.85);
   }
 
