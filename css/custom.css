@@ -166,7 +166,15 @@ h6 {
     color: color-mod(var(--color-midgrey) l(+10%));
   }
 
-  .post-card-tags .post-card-meta {
+  .post-card-meta-date {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .post-card-meta-length {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .post-card-primary-tag {
     color: rgba(255, 255, 255, 0.85);
   }
 
