@@ -174,9 +174,9 @@ h6 {
     color: rgba(255, 255, 255, 0.85);
   }
 
-  .article-tag .post-card-tags .post-card-primary-tag {
+  /* .article-tag .post-card-tags .post-card-primary-tag {
     color: rgba(255, 255, 255, 0.85);
-  }
+  } */
 
   .post-card-primary-tag a {
     color: rgba(255, 255, 255, 0.85);
